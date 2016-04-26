@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+<header>
+    <h1><img src="img/hj-botbg.png"></h1>
+    <nav>
+        <ul>
+            <li><a href="">导航链接1</a></li>
+            <li><a href="">导航链接2</a></li>
+            <li><a href="">导航链接3</a></li>
+            <li><a href="">导航链接4</a></li>
+        </ul>
+    </nav>
+</header>
+<article>
+    <h2>百度前端之路</h2>
+
+    <h3>测验第一篇</h3>
+
+    <p><span>小张</span>
+        <time>2016-4-26</time>
+    </p>
+
+    <p>已经做前端小半年了，对于第一章的内容没有什么贴别特殊的，如果要考虑以后，结构还是需要调整的，仅仅实现示例图片上的样式倒是比较简单</br>
+        已经做前端小半年了，对于第一章的内容没有什么贴别特殊的，如果要考虑以后，结构还是需要调整的，仅仅实现示例图片上的样式倒是比较简单已经做前端小半年了，对于第一章的内容没有什么贴别特殊的，如果要考虑以后，结构还是需要调整的，仅仅实现示例图片上的样式倒是比较简单已经做前端小半年了，对于第一章的内容没有什么贴别特殊的，如果要考虑以后，结构还是需要调整的，仅仅实现示例图片上的样式倒是比较简单
+    </p>
+    <img src="http://placehold.it/350x200">
+
+</article>
+<article>
+    <h2>百度前端之路</h2>
+
+    <h3>测验第一篇</h3>
+
+    <p><span>小张</span>
+        <time>2016-4-26</time>
+    </p>
+
+    <p>网站总体来说需要用到一些重复性的元素和关系间距来表示块与块之间的关系</p>
+    <ul>
+        <li>列表项目一</li>
+        <li>列表项目二</li>
+        <li>列表项目三</li>
+    </ul>
+    <h2>图片</h2>
+    <ul>
+        <li>
+            <div class="imglist">
+                <h5>好看的图片</h5>
+                <img src="http://placehold.it/350x200" alt=""/>
+            </div>
+        </li>
+        <li>
+            <div class="imglist">
+                <h5>好看的图片</h5>
+                <img src="http://placehold.it/350x200" alt=""/>
+            </div>
+        </li>
+        <li>
+            <div class="imglist">
+                <h5>好看的图片</h5>
+                <img src="http://placehold.it/350x200" alt=""/>
+            </div>
+        </li>
+        <li>
+            <div class="imglist">
+                <h5>好看的图片</h5>
+                <img src="http://placehold.it/350x200" alt=""/>
+            </div>
+        </li>
+    </ul>
+</article>
+<article>
+    <h2>百度前端之路</h2>
+
+    <h3>测验第一篇</h3>
+
+    <p><span>小张</span>
+        <time>2016-4-26</time>
+    </p>
+    <ol>
+        <li>排名1</li>
+        <li>排名2</li>
+        <li>排名3</li>
+    </ol>
+    <p>下面是一个表格，为了让你看出是表格加了一个border="1"好让你看出是一个表格</p>
+    <table border="1" class="table">
+        <tr>
+            <th>表头</th>
+            <th>表头</th>
+            <th>表头</th>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a href="">操作</a></td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a href="">操作</a></td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a href="">操作</a></td>
+        </tr>
+        <tr>
+            <td>总计</td>
+            <td colspan="2">1000</td>
+        </tr>
+    </table>
+</article>
+<aside>
+    <h2 class="boderL">百度前端之路</h2>
+
+    <h3>测验第一篇</h3>
+
+    <form name="user-info" action="#" method="post" id="user-info">
+        <label for="email" class="label">请输入邮箱地址：</label>
+        <input type="text" name="email" id="email" placeholder="这是一个文本输入框">
+
+        <p class="tips">请按要求格式输入邮箱格式</p>
+        <label for="pwd" class="label">请输入密码：</label>
+        <input id="pwd" name="pwd" placeholder="这是一个文本输入框">
+        </br>
+        <label for="repwd" class="label">请重复输入密码：</label>
+        <input id="repwd" name="repwd" placeholder="这是一个文本输入框">
+
+        <p class="tips">密码请为6-16英文数字</p>
+
+        <div class="hobby">
+            <label class="label">性别：</label>
+            <input type="radio" name="sex" checked id="male" value="male"><label for="male">男</label>
+            <input type="radio" name="sex" id="female" value="female"><label for="female">女</label>
+            </br>
+            <label for="city" class="label">城市：</label>
+            <select id="city">
+                <option>北京</option>
+                <option>深圳</option>
+                <option>上海</option>
+            </select>
+            </br>
+            <label class="label">爱好：</label>
+            <input type="checkbox" id="checkbox1" value="sport"><label for="checkbox1">运动</label>
+            <input type="checkbox" id="checkbox2" value="art"><label for="checkbox2">艺术</label>
+            <input type="checkbox" id="checkbox3" value="science"><label for="checkbox3">科学</label>
+            </br>
+            <label for="person" class="label per">个人描述：</label>
+        <textarea id="person" name="person" cols="50" rows="5"> 这是一个多行输入框，输入你的个人描述
+        </textarea>
+            <input type="submit" value="确认提交">
+        </div>
+    </form>
+</aside>
+</body>
+</html>
