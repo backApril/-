@@ -1,0 +1,160 @@
+/**********************************************************************
+1:表单aside部分的样式没有按照给的图纸来，图子明显宽度和article部分不一样
+部分学员会统一实现，
+**********************************************************************/
+body, ul, h1, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #dedede;
+}
+
+header {
+    padding: 0 20px;
+    background-color: #333333;
+    height: 40px;
+}
+
+header img {
+    width: 166px;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+    font-size: 12px;
+}
+
+header nav li {
+    float: left;
+    margin-left: 22px;
+    line-height: 40px;
+}
+
+header li a {
+    color: white;
+}
+
+article, aside {
+    display: block;
+    margin: 0 22px;
+    padding: 40px 20px 42px 20px;
+    background-color: white;
+    box-shadow: 2px 2px 1px #848484;
+    margin-top: 22px;
+}
+
+/***文章样式***/
+article h3 {
+    color: #8f8e8a;
+}
+
+article p:first-of-type {
+    color: #b1b5be;
+}
+
+article time {
+    padding-left: 5px;
+}
+
+article p {
+    line-height: 2;
+}
+
+article ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.imglist {
+    display: inline-block;
+    border: 1px solid #999;
+    width: 100px;
+    height: 125px;
+    text-align: center;
+    padding: 10px;
+}
+
+.imglist h5 {
+    margin: 12px 0;
+}
+
+.imglist img {
+    width: 100%;
+    height: 64%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    background-color: #333333;
+    color: white;
+}
+
+.user-info label {
+
+}
+
+h2.boderL {
+    border-left: 5px solid #cacaca;
+    padding: 5px 0 5px 10px;
+}
+
+.label {
+    display: inline-block;
+    width: 31.78%;
+    font-size: 14px;
+    text-align: right;
+}
+
+input[type=submit] {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #3355d0;
+    color: white;
+    padding: 10px 0;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+input:not([type=submit]) {
+    margin: 10px 0;
+}
+
+.hobby input:not([type=submit]) {
+    margin: 15px 0;
+}
+
+.tips {
+    margin-left: 31.5%;
+    color: #999;
+    padding: 10px 0;
+    padding-top: 0;
+}
+
+.per {
+    position: relative;
+    top: -4em;
+}
+
+aside {
+    width: 365px;
+    float: right;
+}
+
+article {
+    margin-right: 450px;
+}
